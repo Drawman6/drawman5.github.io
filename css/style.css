@@ -814,17 +814,9 @@ body {
     color: #fff;
   }
 
-  .price-block_btn:hover {
-    display: none;
-  }
-
   .price-block_cost {
     color: #fff;
     background-color: #008ed6;
-  }
-
-  .price-block_cost:hover {
-    display: none;
   }
 
   .price-descr {
