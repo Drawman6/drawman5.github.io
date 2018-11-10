@@ -87,6 +87,7 @@ body{margin:0;padding:0;font-family:'Open Sans',sans-serif;-webkit-box-sizing:bo
 @media (max-width: 576px) {
 .btn{display:inline;margin-right:0;margin-bottom:20px}
 .logo{text-align:center;font-size:30px}
+.logo a{text-decoration: none; color: #fff}
 .header-nav_menu{margin:0 auto}
 .header-nav_menu ul li{display:block;text-align:center;margin-left:0;margin-top:10px;font-size:28px;margin-right:34px;text-transform:uppercase}
 .header-nav_menu ul li:hover::before{margin-top:38px}
