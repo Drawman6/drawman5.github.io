@@ -5,6 +5,10 @@ body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+.details-features_text{
+  text-align: center
+}
+
 
 .logo {
   color: #ffffff;
