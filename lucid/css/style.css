@@ -713,6 +713,9 @@ body {
 }
 
 @media (max-width: 576px) {
+  .customize-text_title::after{
+    transform: translate(-212px, -50%);
+  }
   .btn {
     display: inline;
     margin-right: 0;
@@ -785,6 +788,7 @@ body {
   .details-features_text {
     margin: 0 auto;
     line-height: 40px;
+    text-align: center;
   }
 
   .details-text {
