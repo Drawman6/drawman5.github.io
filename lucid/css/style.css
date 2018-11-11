@@ -5,10 +5,6 @@ body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-.details-features_text{
-  text-align: center
-}
-
 
 .logo {
   color: #ffffff;
@@ -228,6 +224,7 @@ body {
 
 .details-features_text {
   margin-left: 23px;
+  text-align: center;
 }
 
 .details-features::before {
@@ -322,8 +319,8 @@ body {
   height: 2px;
   background: url("../img/stripe.png");
   margin-top: 70px;
-  -webkit-transform: translate(-384px, -50%);
-  transform: translate(-384px, -50%);
+  -webkit-transform: translate(-215px, -50%);
+  transform: translate(-215px, -50%);
 }
 
 .customize-text_descr {
