@@ -1,0 +1,103 @@
+.contacts
+  text-align: center
+  background-color: #ededed
+  padding-top: 60px
+  padding-bottom: 300px
+  position: relative
+  &-descr
+    font-size: 17px
+    color: $text-color
+    font-weight: 400
+    line-height: 27px
+    margin-top: 30px
+    margin-bottom: 73px
+  &-colon
+    display: block
+    font-family: 'Source Sans Pro'
+    color: $active-color
+    text-transform: uppercase
+    font-size: 14px
+    font-weight: 700
+    letter-spacing: 2px
+    margin-bottom: 8px
+    text-align: center
+  &-title
+    font-size: 34px
+    font-weight: 600
+    margin-top: 0
+    margin-bottom: 50px
+    text-align: center
+    margin-bottom: 100px
+    &::after
+      content: ''
+      position: absolute
+      width: 42px
+      height: 2px
+      background: url(../img/stripe.png)
+      margin-top: 70px
+      transform: translate(-100px,-50%)
+
+//Форма
+
+.form
+  width: 770px
+  height: 360px
+  background-color: #15141a
+  padding-top: 60px
+  padding-bottom: 40px
+  position: absolute
+  padding-right: 85px
+  left: 50%
+  margin-left: -385px
+  //margin-bottom: 300px
+  z-index: 1
+
+  &-btn
+    color: #fff
+    font-family: 'Source Sans Pro'
+    font-size: 14px
+    background-color: $active-color
+    width: 160px
+    height: 50px
+    border: 1px solid rgba(255, 255, 255, 0.2)
+    font-weight: 700
+    text-transform: uppercase
+    border-radius: 4px
+    margin-left: 525px
+    outline: none
+    cursor: pointer
+
+
+
+  input
+    display: block
+    width: 300px
+    height: 50px
+    border: 1px solid rgba(255, 255, 255, 0.2)
+    background-color: #15141a
+    border-radius: 3px
+    margin-bottom: 20px
+    padding-top: 20px
+    padding-bottom: 20px
+    padding-left: 18px
+    font-family: "Source Sans Pro"
+    font-size: 14px
+    font-weight: 700
+    text-transform: uppercase
+    color: $white
+    margin-right: 15px
+    margin-left: 66px
+    caret-color: $white
+    outline: none
+#message
+  width: 300px
+  height: 190px
+  border: 1px solid rgba(255, 255, 255, 0.2)
+  border-radius: 3px
+  position: absolute
+  top: 60px
+  left: 320px
+   //Карта
+.map
+  padding: 0
+  margin: 0

@@ -1,0 +1,85 @@
+
+
+.logo
+	a
+		text-decoration: none
+		color: $white
+	color: #ffffff
+	font-family: 'Quicksand'
+	font-size: 24px
+	font-weight: 700
+	text-transform: uppercase
+.header
+	background-color: #16151b
+	background: url(../img/main.png) no-repeat
+	background-size: cover
+	position: relative
+	z-index: 0
+
+	&-nav
+    padding-top: 22px
+    margin-bottom: 50px
+
+
+	&-nav_menu
+		ul
+			list-style: none
+		li
+			display: inline
+
+			margin-left: 20px
+			&:hover
+				position: relative
+				&::before
+					content: ''
+					display: inline
+					position: absolute
+					width: 42px
+					height: 2px
+					background: url(../img/stripe.png)
+					margin-top: 30px
+					text-align: center
+					left: 50%
+					margin-left: -21px
+
+
+
+
+
+
+		a
+			color: #fffefe
+			font-family: 'Source Sans Pro'
+			font-size: 16px
+			font-weight: 400
+			text-decoration: none
+
+
+
+
+.main
+	&-text
+		&_title
+	  	margin-top: 13px
+	  	margin-bottom: 30px
+	  	color: #fff
+	  	font-size: 48px
+	  	font-weight: 600
+	  	line-height: 65px
+		&_colon
+			font-family: 'Source Sans Pro'
+			color: $active-color
+			text-transform: uppercase
+			font-size: 14px
+			font-weight: 700
+			letter-spacing: 2px
+		&_descr
+			font-size: 18px
+			color: $text-color
+			font-weight: 400
+			margin-bottom: 60px
+			line-height: 30px
+
+  &-picture
+    text-align: center
+    margin-left: 50px

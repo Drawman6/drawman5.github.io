@@ -1,0 +1,105 @@
+.pricing
+  padding-top: 60px
+  padding-bottom: 60px
+
+   //Заголовок секции
+  &-title
+    font-size: 34px
+    font-weight: 600
+    margin-top: 0
+    margin-bottom: 50px
+    text-align: center
+    margin-bottom: 100px
+    &::after
+      content: ''
+      position: absolute
+      width: 42px
+      height: 2px
+      background: url(../img/stripe.png)
+      margin-top: 70px
+      transform: translate(-145px,-50%)
+    &_colon
+      display: block
+      font-family: 'Source Sans Pro'
+      color: $active-color
+      text-transform: uppercase
+      font-size: 14px
+      font-weight: 700
+      letter-spacing: 2px
+      margin-bottom: 8px
+      text-align: center
+
+
+
+
+// Сам ценник
+.price
+  sup
+    font-family: "Source Sans Pro"
+    font-size: 28px
+    font-weight: 600
+  font-size: 48px
+  font-weight: 600
+  &-descr
+    font-family: "Source Sans Pro"
+    font-weight: 400
+    color: $text-color
+    font-size: 18px
+
+
+
+// блоки с ценами
+.price-block
+  text-align: center
+  &_title
+    font-family: "Source Sans Pro"
+    font-size: 24px
+    font-weight: 700
+    text-transform: uppercase
+    border: 1px solid #e0e0e0
+    padding-top: 29px
+    padding-bottom: 25px
+  &_cost
+    border: 1px solid #e0e0e0
+    border-top: transparent
+    padding-top: 33px
+    padding-bottom: 35px
+    &:hover
+      color: $white
+      background-color: $active-color
+      .price-descr
+        color: #fff
+
+  &_descr
+    font-size: 17px
+    color: $text-color
+    font-weight: 400
+    margin-bottom: 32px
+    line-height: 27px
+    border: 1px solid #e0e0e0
+    border-top: transparent
+    padding-top: 52px
+    padding-bottom: 29px
+  &_btn
+    display: block
+    color: $active-color
+    font-family: 'Source Sans Pro'
+    font-size: 14px
+    background: #fff
+    width: 160px
+    height: 50px
+    border: 1px solid #e0e0e0
+    font-weight: 700
+    text-transform: uppercase
+    border-radius: 4px
+    margin: 0 auto
+    margin-top: 44px
+    outline: none
+    cursor: pointer
+    &:hover
+      background-color: $active-color
+      color: #fff
+
+  // Выделение ключевого слова
+.blue
+  color: $active-color

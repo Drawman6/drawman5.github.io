@@ -1,0 +1,153 @@
+.adaptive
+  display: block
+  max-width: 100%
+  height: auto
+
+@media (max-width: 576px)
+  .btn
+    display: inline
+    margin-right: 0
+    margin-bottom: 20px
+
+  .logo
+    text-align: center
+    font-size: 30px
+  .header-nav_menu
+    margin: 0 auto
+    ul
+      li
+        display: block
+        text-align: center
+        margin-left: 0
+        margin-top: 10px
+        font-size: 28px
+        margin-right: 34px
+        text-transform: uppercase
+        &:hover
+          &::before
+            margin-top: 38px
+
+  .main
+    &-text
+      text-align: center
+      &_colon
+        text-align: center
+      &_title
+        text-align: center
+        font-size: 40px
+      &_descr
+        text-align: center
+        margin-bottom: 20px
+    &-picture
+      display: none
+  .features
+    &-title_h2
+      &::after
+        left: 50%
+        margin-left: -21px
+        transform: translate(0,0)
+  .details
+    &-text
+      &_title
+        &::after
+          left: 50%
+          margin-left: -21px
+          transform: translate(0,0)
+    &-features
+      &::before
+        display: none
+      &_text
+        margin: 0 auto
+        line-height: 40px
+
+
+
+    &-text
+      text-align: center
+      margin: 0 auto
+      margin-top: 30px
+      &_colon
+        text-align: center
+    &-device
+      img
+        max-width: 100%
+        height: auto
+
+  .customize
+    &-text
+      text-align: center
+      margin-top: 15px
+
+
+  .feedback
+    &-title
+      margin-bottom: 50px
+    &-footer
+      text-align: center
+    &-btns
+      margin: 0
+  .slick-slide
+    margin: 10px
+
+  .price
+    &-block
+      &_btn
+        background-color: $active-color
+        color: #fff
+
+
+      &_cost
+        color: $white
+        background-color: $active-color
+    &-descr
+      color: #fff
+  .contacts
+    padding-bottom: 0
+  .form
+    &-btn
+      margin: 0
+    margin: 0
+    position: static
+    width: auto
+    height: auto
+    padding: 0
+    padding-top: 20px
+    padding-bottom: 20px
+    input
+      top: 50%
+      width: 80%
+      margin: 0 auto
+      margin-bottom: 15px
+      vertical-align: middle
+
+  #message
+    position: static
+    width: 80%
+    height: auto
+    margin: 0 auto
+    margin-bottom: 15px
+    vertical-align: middle
+
+
+@media (max-width: 768px)
+  .customize-text
+    margin-top: 20px
+  .details-text
+    margin: 0
+    text-align: left
+  .feedback-footer_text
+    text-align: center
+  .main-text
+    text-align: center
+  .main-picture
+    margin-top: 40px
+    text-align: center
+@media (max-width: 1300px)
+  .feedback-footer
+    text-align: center
+  .feedback-btns
+    text-align: center
+    margin: 0 auto
+    display: block
+  .feedback-footer_text
+    margin: 0 auto
